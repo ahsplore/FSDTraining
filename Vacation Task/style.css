@@ -1,0 +1,44 @@
+.header {
+    padding-bottom: 10px;
+}
+
+.header_text {
+    background-color: grey;
+    font-weight: bold;
+    color: rgb(86, 10, 236);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 10px;
+}
+
+.main {
+    display: flex;
+    background-color: grey;
+    padding: 0 0 10px 20px;
+}
+
+.two_images {
+    background-color: white;
+    padding: 0 10px 0 10px;
+}
+
+.two_images img {
+    width: 400px;
+    height: 300px;
+}
+
+.main_image {
+    padding: 5px 0  0 90px;
+}
+
+.main_image img {
+    width: 900px;
+    height: 400px;
+}
+
+.main_image button {
+    color: white;
+    font-size: large;
+    background-color: blue;
+    padding: 10px;
+    border-radius: 15px;
+}
