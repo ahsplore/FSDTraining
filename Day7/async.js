@@ -14,11 +14,11 @@ demo1();
 
 // ASYNCHRONOUS FUNCTION
 
-// making a way for other function to execute first 
+// making a way for other function to execute first
 
 // ◽ Two Methods     --->     present under "window" object
 //     ◽ setTimeout( call back function, delay time )  --> output once
-//     ◽ setInterval( call back function, delay time )  --> fir every delay it will print 
+//     ◽ setInterval( call back function, delay time )  --> for every delay it will print
 
 window.setTimeout( () => {
     console.log("I am SetTimeout");
@@ -55,7 +55,7 @@ demo();
 // ◽ it is used to look after asynchronous function
 
 // ◽ It has 3 - phases
-//     1️⃣ pending phase  -->  we dont know whether the "promise" is rejected/fulfilled
+//     1️⃣ pending phase  -->  we don't know whether the "promise" is rejected/fulfilled
 //     2️⃣ resolved / fulfill phase  -->  when asynchronous function is working properly
 //     3️⃣ reject phase  -->  when asynchronous function is NOT working properly
 
