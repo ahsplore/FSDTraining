@@ -23,6 +23,8 @@
 // }
 // demo();
 
+// ---------------- display searched images from "pixabay" by fetch ----------------------
+
 
 let btn = document.getElementById("btn");
 console.log(btn);
@@ -31,7 +33,7 @@ btn.onclick = () => {
     let search = document.getElementById("search").value; // Get the value from the search box
     console.log(search);
     let page = 30;
-    window.fetch(`https://pixabay.com/api/?key=48516067-cf7abddd4a10793ecb832cd3e&q=${search}&image_type=photo&pretty=true&per_page=${page}`)
+    window.fetch(`https://pixabay.com/api/?key=48527686-955e3778bfcac1f923da851e3&q=${search}&image_type=photo&per_page=${page}`)
     .then((data) => data.json())
     .then((res) => {
         console.log(res);
